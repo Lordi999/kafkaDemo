@@ -1,0 +1,10 @@
+name: CI Test
+on: workflow_dispatch
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print_greeting
+        run: echo "Hello User! Starting the Pipeline for you..."
+      - name: pring_goodbye
+        run: echo "Done. SeeYa!"
